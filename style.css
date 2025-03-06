@@ -271,7 +271,6 @@ body {
 .landing {
   width: 100%;
   z-index: 2;
-  display: none;
 }
 
 .landing .intro-text {
