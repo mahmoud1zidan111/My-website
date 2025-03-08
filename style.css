@@ -281,6 +281,8 @@ body {
   transform: translate(-50%, -50%);
   width: 350px;
   max-width: 100%;
+  display: none;
+  opacity: 0;
 }
 
 .landing .intro-text h1 {
