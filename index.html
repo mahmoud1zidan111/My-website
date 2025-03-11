@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leon | Template One</title>
+    <title>Mahmoud_Zidan</title>
     <!-- Main Template CSS File -->
     <link rel="stylesheet" href="css/leon.css" />
     <!-- Render All Elements Normally -->
@@ -77,10 +77,10 @@
                 <h1>I,m Mahmoud Zidan </h1>
                 <h3>Front-End Development</h3>
                 <div class="icon-section-one">
-                <a href="#"><span><i class="fa-brands fa-instagram  " id="instagram"></a></span></i>
-                <a href="#"><span><i class="fa-brands fa-facebook" id="facebook"></a></span></i>
-                <a href="#"><span><i class="fa-brands fa-github" id="github"></a></span></i>
-                <a href="#"><span><i class="fa-brands fa-linkedin" id="linkedin"></a></span></i>
+                <a href="https://www.instagram.com/mahmoud_zidan_officiall/"><span><i class="fa-brands fa-instagram  " id="instagram"></a></span></i>
+                <a href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"><span><i class="fa-brands fa-facebook" id="facebook"></a></span></i>
+                <a href="https://github.com/mahmoud1zidan111"><span><i class="fa-brands fa-github" id="github"></a></span></i>
+                <a href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"><span><i class="fa-brands fa-linkedin" id="linkedin"></a></span></i>
                 </div>
             </div>
         </div>
@@ -226,22 +226,24 @@
             <h2 class="special-heading">About</h2>
             <div class="about-content">
                 <div class="image">
-                    <img decoding="async" src="images/mahmoud.jpeg" alt="" />
+                    <img decoding="async" src="images/mahmoud_about.jpeg" alt="" id="img-two"/>
                 </div>
                 <div class="text">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora
-                        velit cum non,
-                        fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto
-                        laudantium!
+                        I am Mahmoud Magdy, a Front-End Developer passionate about designing and
+                         developing websites. I have experience in HTML and CSS, and I have learned JavaScript.
+                          Currently, I am improving my skills in jQuery. I enjoy applying these technologies to create interactive interfaces and
+                           enhance user experience dynamically.
+                           I am always eager to improve my skills and learn through working on real-world projects.  
                     </p>
                     <hr />
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure
-                        exercitationem
-                        dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore
-                        esse,
-                        alias, sed quo officia?
+                        I am twenty-two years old, with a great passion for learning new
+                         technologies and improving my skills. I enjoy exploring everything
+                          new in programming and design. My studies at ASA Academy in the 
+                          Marketing and Foreign Trade department provide me with a solid
+                           foundation in understanding the principles of business and marketing 
+                           in the digital age.
                     </p>
                 </div>
             </div>
@@ -253,13 +255,14 @@
         <div class="container">
             <h2 class="special-heading">Contact</h2>
             <div class="info">
-                <p class="label">Feel free to drop us a line at:</p>
-                <a href="mailto:leonagency@mail.com?subject=Contact" class="link">leonagency@mail.com</a>
+                <!-- <p class="label">Feel free to drop us a line at:</p> -->
+                <a href="mailto:11mahmooudzidan121@gmail.com" class="link">11mahmooudzidan121@mail.com</a>
                 <div class="social">
                     Find Us On Social Networks
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
+                <a href="https://www.instagram.com/mahmoud_zidan_officiall/"><span><i class="fa-brands fa-instagram  " id="instagram"></a></span></i>
+                <a href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"><span><i class="fa-brands fa-facebook" id="facebook"></a></span></i>
+                <a href="https://github.com/mahmoud1zidan111"><span><i class="fa-brands fa-github" id="github"></a></span></i>
+                <a href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"><span><i class="fa-brands fa-linkedin" id="linkedin"></a></span></i>
                 </div>
             </div>
         </div>
@@ -267,8 +270,14 @@
     <button id="btn">⬆</button>
     <!-- End Contact -->
     <!-- Start Footer -->
-    <div class="footer">&copy; 2022 <span>MAHMOUD_ZIDAN</span> All Right Reserved</div>
+<div class="footer">&copy; <span id="year"></span> <span>MAHMOUD_ZIDAN</span> All Rights Reserved</div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
     <!-- End Footer -->
+
     <script src="js/jquery-3.7.1.min.js"></script>
      <script src="js/min.js"></script>
      <script src="js/skills.js"></script>

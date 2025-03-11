@@ -249,25 +249,6 @@ body {
   z-index: 1;
 }
 
-/* خاص بزر تغير المود */
-
-/* .mood_dark {
-  position: fixed;
-  top: 90px;
-  right: 20px;
-  z-index: 1001;
-  font-size: 30px;
-  padding: 10px;
-  background-color: #09207400;
-  border: none;
-}
-
-.mood_dark i {
-  background-color: #fff56b;
-  border-radius: 30px;
-  padding: 0;
-} */
-
 .landing {
   width: 100%;
   z-index: 2;
@@ -829,9 +810,9 @@ h3 {
 .about .about-content .image::before {
   content: "";
   position: absolute;
-  background-color: #ebeced;
+  background-color: #ebeced4d;
   width: 100px;
-  height: calc(100% + 80px);
+  height: calc(100% + 50px);
   top: -40px;
   left: -20px;
   z-index: -1;
@@ -843,8 +824,8 @@ h3 {
   position: absolute;
   width: 120px;
   height: 300px;
-  border-left: 80px solid var(--main-color);
-  border-bottom: 80px solid var(--main-color);
+  border-left: 80px solid #7b00b477;
+  border-bottom: 80px solid #7b00b448;
   z-index: -1;
   right: -150px;
 }
@@ -855,9 +836,13 @@ h3 {
     display: none;
   }
 }
-
+.about .about-content .image {
+  opacity: 0.8;
+}
 .about .about-content .image img {
   max-width: 100%;
+  margin-bottom: 50px;
+  border-radius: 20px;
 }
 
 .about .about-content .text {
