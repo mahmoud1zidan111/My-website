@@ -887,13 +887,44 @@ h3 {
   letter-spacing: -2px;
   margin-bottom: 15px;
 }
+.contact .info {
+  width: 100%;
+}
 
 .contact .info .link {
   display: block;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--main-color);
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .contact .info .link {
+    display: block;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+  }
+}
+@media (max-width: 400px) {
+  .contact .info a p {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+  }
+}
+@media (max-width: 375px) {
+  .contact .info .link {
+    display: block;
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+  }
 }
 
 .contact .info .social {
