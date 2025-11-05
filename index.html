@@ -1,289 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mahmoud_Zidan</title>
-    <!-- Main Template CSS File -->
-    <link rel="stylesheet" href="css/leon.css" />
-    <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="css/all.min.css" />
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/jquery-3.7.1.min.js"></script>
-        <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-    <!-- Start Header -->
+    <!-- Font Awesome (icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
     <div class="header">
-        <div class="container">
-           <span class="cover"> <img decoding="async" class="logo" src="images/letter-m.png" alt="" /></span>
-            <div class="links">
-                <span class="icon">
-                <nav id="nav" class="no-menu">
-                    <li><a href="#" id="servis">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </nav>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-                <ul>
-                    <li><a href="#" id="servis">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <span class="cover">
+          <img
+            decoding="async"
+            class="logo"
+            src="images/letter-m.png"
+            alt="Logo"
+          />
+        </span>
+
+        <div class="links">
+          <span class="icon">
+            <nav id="nav" class="no-menu">
+              <li><a href="#" id="servis">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </nav>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+
+          <ul>
+            <li><a href="#" id="servis">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-    <!-- End Header -->
-    <!-- Start Landing Section -->
-     <div class="url"></div>
- <!-- <button class="mood_dark"><i class="fa-regular fa-lightbulb "></i></button> -->
-    <!-- <i class="fa-light fa-lightbulb"></i>     .....  دا الخاص بعد ما تنور   -->
+    <!-- /Header -->
+
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Landing -->
+    <div class="url"></div>
+
     <div class="landing">
-        <div class="intro-text">
-            <h1 id="h1">Welcome!</h1>
-            <p>Creative Web Designer <span class="shar-bottom"><i class="fa-solid fa-code"></i></span></p>
-        </div>
+      <div class="intro-text">
+        <h1 id="h1" class="split" style="color: #630070" data-hero>Welcome!</h1>
+        <p data-anim="fade">
+          Creative Web Designer
+          <span class="shar-bottom"><i class="fa-solid fa-code"></i></span>
+        </p>
+      </div>
     </div>
-    
-    <!-- End Landing Section -->
-    <!-- Start Features -->
+    <!-- /Landing -->
+
+    <!-- Features -->
     <div class="features">
-        <div class="container">
-                <div class="section-one-img">
-                      <div>
-                         <img src="images/mahmoud.jpeg" >
-                     </div>
-                </div>
+      <div class="container">
+        <div class="section-one-img" data-anim="fade">
+          <div>
+            <img
+              src="images/mahmoud.jpeg"
+              alt="Mahmoud"
+              data-anim="img"
+              data-speed="0.18"
+            />
+          </div>
+        </div>
 
         <div class="section-one">
+          <div class="all" id="all" data-anim="fade">
+            <h1>I,m Mahmoud Zidan</h1>
+            <h3>Front-End Development</h3>
 
-            <div class="all" id="all">
-                <h1>I,m Mahmoud Zidan </h1>
-                <h3>Front-End Development</h3>
-                <div class="icon-section-one">
-                <a href="https://www.instagram.com/mahmoud_zidan_officiall/"><span><i class="fa-brands fa-instagram  " id="instagram"></a></span></i>
-                <a href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"><span><i class="fa-brands fa-facebook" id="facebook"></a></span></i>
-                <a href="https://github.com/mahmoud1zidan111"><span><i class="fa-brands fa-github" id="github"></a></span></i>
-                <a href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"><span><i class="fa-brands fa-linkedin" id="linkedin"></a></span></i>
-                </div>
+            <div class="icon-section-one">
+              <a
+                class="magnetic"
+                href="https://www.instagram.com/mahmoud_zidan_officiall/"
+              >
+                <span
+                  ><i class="fa-brands fa-instagram" id="instagram"></i
+                ></span>
+              </a>
+              <a
+                class="magnetic"
+                href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"
+              >
+                <span><i class="fa-brands fa-facebook" id="facebook"></i></span>
+              </a>
+              <a class="magnetic" href="https://github.com/mahmoud1zidan111">
+                <span><i class="fa-brands fa-github" id="github"></i></span>
+              </a>
+              <a
+                class="magnetic"
+                href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"
+              >
+                <span><i class="fa-brands fa-linkedin" id="linkedin"></i></span>
+              </a>
             </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    <!-- End Features -->
-    <!-- Start Services -->
+    <!-- /Features -->
+
+    <!-- Services -->
     <div class="services" id="services">
-        <div class="container">
-            <h2 class="special-heading">Services</h2>
-            <!-- <p>Don't be busy, be productive</p> -->
-            <div class="services-content">
-                <div class="col">
-                    <!-- Start Services -->
-                    <div class="srv">
-                        <i class="fas fa-vector-square fa-2x"></i>
-                        <div class="text">
-                            <h3>Web Design</h3>
-                            <p>
-                                I'm creative in web design and I have many ideas and designs and I shorten the codes as 
-                                much as possible to make the site faster. 
-                            </p>
-                        </div>
+      <div class="container">
+        <h2 class="special-heading" data-anim="fade">Services</h2>
+
+        <div class="services-content">
+          <div class="col">
+            <div class="srv" data-anim="fade">
+              <i class="fas fa-vector-square fa-2x"></i>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  I'm creative in web design and I have many ideas and designs
+                  and I shorten the codes as much as possible to make the site
+                  faster.
+                </p>
+              </div>
+            </div>
+
+            <div class="srv" data-anim="fade">
+              <i class="fas fa-pencil-ruler fa-2x"></i>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  I'm a profssional in Developing Front-End interfaces in terms
+                  of responsiveness and design, and I modify and shorten code.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="image image-column">
+              <h2 class="special-heading" id="skil" data-anim="fade">Skills</h2>
+
+              <div class="skill-container">
+                <div class="skill html">
+                  <div class="skill-name">HTML</div>
+                  <div class="progress-wrapper">
+                    <div class="progress-bar">
+                      <div class="progress" data-value="95"></div>
                     </div>
-                    <div class="srv">
-                        <i class="fas fa-pencil-ruler fa-2x"></i>
-                        <div class="text">
-                            <h3>Web Development</h3>
-                            <p>
-                                I'm a profssional in Developing Front-End interfaces in terms of responsiveness and design,
-                                and  I modify and shorten code.
-                            </p>
-                        </div>
+                  </div>
+                  <span class="percentage">0%</span>
+                </div>
+
+                <div class="skill css">
+                  <div class="skill-name">CSS</div>
+                  <div class="progress-wrapper">
+                    <div class="progress-bar">
+                      <div class="progress" data-value="90"></div>
                     </div>
-                    <!-- End Services -->
+                  </div>
+                  <span class="percentage">0%</span>
                 </div>
-                <div class="col">
-                    <div class="image image-column">
-                        <!-- skill parr -->
 
+                <div class="skill js">
+                  <div class="skill-name">JavaScript</div>
+                  <div class="progress-wrapper">
+                    <div class="progress-bar">
+                      <div class="progress" data-value="80"></div>
+                    </div>
+                  </div>
+                  <span class="percentage">0%</span>
+                </div>
 
-            <h2 class="special-heading" id="skil">Skills</h2>
+                <div class="skill git">
+                  <div class="skill-name">Git&Github</div>
+                  <div class="progress-wrapper">
+                    <div class="progress-bar">
+                      <div class="progress" data-value="95"></div>
+                    </div>
+                  </div>
+                  <span class="percentage">0%</span>
+                </div>
 
-     <div class="skill-container">
-        <div class="skill html">
-            <div class="skill-name">HTML</div>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress" data-value="95"></div>
+                <div class="skill Riact">
+                  <div class="skill-name">Riact.js</div>
+                  <div class="progress-wrapper">
+                    <div class="progress-bar">
+                      <div class="progress" data-value="85"></div>
+                    </div>
+                  </div>
+                  <span class="percentage">0%</span>
                 </div>
+              </div>
+              <!-- /skill-container -->
             </div>
-            <span class="percentage">0%</span>
+          </div>
         </div>
-        <div class="skill css">
-            <div class="skill-name">CSS</div>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress" data-value="90"></div>
-                </div>
-            </div>
-            <span class="percentage">0%</span>
-        </div>
-        <div class="skill js">
-            <div  class="skill-name">JavaScript</div>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress" data-value="80"></div>
-                </div>
-            </div>
-            <span class="percentage">0%</span>
-        </div>
-        <div class="skill git">
-            <div class="skill-name">Git&Github</div>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress" data-value="95"></div>
-                </div>
-            </div>
-            <span class="percentage">0%</span>
-        </div>
-        <div class="skill Riact">
-            <div class="skill-name">Riact.js</div>
-            <div class="progress-wrapper">
-                <div class="progress-bar">
-                    <div class="progress" data-value="85"></div>
-                </div>
-            </div>
-            <span class="percentage">0%</span>
-        </div>
+      </div>
     </div>
-                    
-                        <!-- ================== -->
-                        <!-- <img decoding="async" src="images/services.jpg" alt="" /> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Services -->
-    <!-- Start Portfolio -->
+    <!-- /Services -->
+
+    <!-- Portfolio -->
     <div class="portfolio" id="portfolio">
-        <div class="container">
-            <h2 class="special-heading">projects</h2>
-            <div class="portfolio-content">
-                <div class="card">
-                    <img decoding="async" src="images/project-1.png" alt="" />
-                    <div class="info">
-                        <h3>warehouse management</h3>
-                        <p>
-                            This is part of project for company thet I modified to save it in the 
-                            browser's local storage to display it on my business page without accessing their data on the server.
-                        </p>
-                        <a href="https://mahmoud1zidan111.github.io/Product-management/" class="click-here"><h4>click here</h4></a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img decoding="async" src="images/Doctor-AI.png" alt="" />
-                    <div class="info">
-                        <h3>Doctor-AI</h3>
-                        <p>This is a project that diagnoses the user's medical condition and offers you the 
-                            appropriate treatment for your condition. I am still developing it. This is my idea.</p>
-                        <a href="https://mahmoud1zidan111.github.io/Doctor-AI/" class="click-here"><h4>click here</h4></a>
+      <div class="container">
+        <h2 class="special-heading" data-anim="fade">projects</h2>
 
-                    </div>
-                </div>
-
-                <!-- updete => new progict -->
-                <div class="card">
-                    <img decoding="async" src="images/todo-list-pohto.png" alt="" />
-                    <div class="info">
-                        <h3>Project Here</h3>
-                        <p>My creative ability is very difficult to measure because it can manifest in so many
-                            surprising and.</p>
-                        <a href="https://todolista-2025.netlify.app/" class="click-here"><h4>click here</h4></a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Portfolio -->
-    <!-- Start About -->
-    <div class="about" id="about">
-        <div class="container">
-            <h2 class="special-heading">About</h2>
-            <div class="about-content">
-                <div class="image">
-                    <img decoding="async" src="images/mahmoud_about.jpeg" alt="" id="img-two"/>
-                </div>
-                <div class="text">
-                    <p>
-                        I am Mahmoud Magdy, a Front-End Developer passionate about designing and
-                         developing websites. I have experience in HTML and CSS, and I have learned JavaScript.
-                          Currently, I am improving my skills in jQuery. I enjoy applying these technologies to create interactive interfaces and
-                           enhance user experience dynamically.
-                           I am always eager to improve my skills and learn through working on real-world projects.  
-                    </p>
-                    <hr />
-                    <p>
-                        I am twenty-two years old, with a great passion for learning new
-                         technologies and improving my skills. I enjoy exploring everything
-                          new in programming and design. My studies at ASA Academy in the 
-                          Marketing and Foreign Trade department provide me with a solid
-                           foundation in understanding the principles of business and marketing 
-                           in the digital age.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About -->
-    <!-- Start Contact -->
-    <div class="contact" id="contact">
-        <div class="container">
-            <h2 class="special-heading">Contact</h2>
+        <div class="portfolio-content">
+          <div class="card tilt" data-anim="card">
+            <img
+              decoding="async"
+              src="images/project-1.png"
+              alt=""
+              data-anim="img"
+            />
             <div class="info">
-                <!-- <p class="label">Feel free to drop us a line at:</p> -->
-                <a href="mailto:11mahmooudzidan121@gmail.com" class="link"><p>11mahmooudzidan121@mail.com</p></a>
-                <div class="social">
-                    Find Us On Social Networks
-                <a href="https://www.instagram.com/mahmoud_zidan_officiall/"><span><i class="fa-brands fa-instagram  " id="instagram"></a></span></i>
-                <a href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"><span><i class="fa-brands fa-facebook" id="facebook"></a></span></i>
-                <a href="https://github.com/mahmoud1zidan111"><span><i class="fa-brands fa-github" id="github"></a></span></i>
-                <a href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"><span><i class="fa-brands fa-linkedin" id="linkedin"></a></span></i>
-                </div>
+              <h3>warehouse management</h3>
+              <p>
+                This is part of project for company thet I modified to save it
+                in the browser's local storage to display it on my business page
+                without accessing their data on the server.
+              </p>
+              <a
+                href="https://mahmoud1zidan111.github.io/Product-management/"
+                class="click-here magnetic"
+                ><h4>click here</h4></a
+              >
             </div>
+          </div>
+
+          <div class="card tilt" data-anim="card">
+            <img
+              decoding="async"
+              src="images/Doctor-AI.png"
+              alt=""
+              data-anim="img"
+            />
+            <div class="info">
+              <h3>Doctor-AI</h3>
+              <p>
+                This is a project that diagnoses the user's medical condition
+                and offers you the appropriate treatment for your condition. I
+                am still developing it. This is my idea.
+              </p>
+              <a
+                href="https://mahmoud1zidan111.github.io/Doctor-AI/"
+                class="click-here magnetic"
+                ><h4>click here</h4></a
+              >
+            </div>
+          </div>
+
+          <div class="card tilt" data-anim="card">
+            <img
+              decoding="async"
+              src="images/todo-list-pohto.png"
+              alt=""
+              data-anim="img"
+            />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+              <a
+                href="https://todolista-2025.netlify.app/"
+                class="click-here magnetic"
+                ><h4>click here</h4></a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+    <!-- /Portfolio -->
+
+    <!-- About -->
+    <div class="about" id="about">
+      <div class="container">
+        <h2 class="special-heading" data-anim="fade">About</h2>
+        <div class="about-content">
+          <div class="image">
+            <img
+              decoding="async"
+              src="images/mahmoud_about.jpeg"
+              alt=""
+              id="img-two"
+              data-anim="img"
+            />
+          </div>
+          <div class="text">
+            <p data-anim="fade">
+              I am Mahmoud Magdy, a Front-End Developer passionate about
+              designing and developing websites. I have experience in HTML and
+              CSS, and I have learned JavaScript. Currently, I am improving my
+              skills in jQuery. I enjoy applying these technologies to create
+              interactive interfaces and enhance user experience dynamically. I
+              am always eager to improve my skills and learn through working on
+              real-world projects.
+            </p>
+            <hr />
+            <p data-anim="fade">
+              I am twenty-two years old, with a great passion for learning new
+              technologies and improving my skills. I enjoy exploring everything
+              new in programming and design. My studies at ASA Academy in the
+              Marketing and Foreign Trade department provide me with a solid
+              foundation in understanding the principles of business and
+              marketing in the digital age.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /About -->
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <h2 class="special-heading" data-anim="fade">Contact</h2>
+        <div class="info">
+          <a
+            href="mailto:11mahmooudzidan121@gmail.com"
+            class="link"
+            data-anim="fade"
+          >
+            <p>11mahmooudzidan121@mail.com</p>
+          </a>
+
+          <div class="social">
+            Find Us On Social Networks
+            <a
+              class="magnetic"
+              href="https://www.instagram.com/mahmoud_zidan_officiall/"
+            >
+              <span><i class="fa-brands fa-instagram" id="instagram"></i></span>
+            </a>
+            <a
+              class="magnetic"
+              href="https://www.facebook.com/profile.php?id=100013419043524&locale=ar_AR%2Frobots.txt"
+            >
+              <span><i class="fa-brands fa-facebook" id="facebook"></i></span>
+            </a>
+            <a class="magnetic" href="https://github.com/mahmoud1zidan111">
+              <span><i class="fa-brands fa-github" id="github"></i></span>
+            </a>
+            <a
+              class="magnetic"
+              href="https://www.linkedin.com/in/mahmoud-zidan-537ab0344/"
+            >
+              <span><i class="fa-brands fa-linkedin" id="linkedin"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <button id="btn">⬆</button>
-    <!-- End Contact -->
-    <!-- Start Footer -->
-<div class="footer">&copy; <span id="year"></span> <span>MAHMOUD_ZIDAN</span> All Rights Reserved</div>
+    <!-- /Contact -->
 
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    <!-- Footer -->
+    <div class="footer">
+      &copy; <span id="year"></span> <span>MAHMOUD_ZIDAN</span> All Rights
+      Reserved
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <!-- /Footer -->
 
-    <!-- End Footer -->
-
-    <script src="js/jquery-3.7.1.min.js"></script>
-     <script src="js/min.js"></script>
-     <script src="js/skills.js"></script>
-     <script src="js/jQuery.js"></script>
-</body>
-
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <!-- Motion app -->
+    <script defer src="js/gsap-app.js"></script>
+  </body>
 </html>
