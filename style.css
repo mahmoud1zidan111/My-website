@@ -213,7 +213,7 @@ body {
   background-color: #171b1e;
   width: 100%;
   filter: blur(4px);
-  background: url(images/section-1.jpg) no-repeat;
+  background: url(images/section-1.webp) no-repeat;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
